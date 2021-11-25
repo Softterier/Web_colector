@@ -33,6 +33,12 @@ def save_wordlist(raw_page):
  	it parses all word and make recursive call to all found URLs'''
 def scrape(baseurl, page, rp):
 	if page is None: 
+		
+## <a name='credit'>Créditos y autor</a>
+- ** En Repositorio Softterier
+- **Autor del snippet: Pero Rivera** [@softterier](https://twitter.com/petter3131)
+- **Los snippets pertenecen a** [Softterier](http://softterier.com/)
+		## Christopher Käck melpomene 
 		return 
 	url = urlparse(page)
 	if url.netloc=="":
